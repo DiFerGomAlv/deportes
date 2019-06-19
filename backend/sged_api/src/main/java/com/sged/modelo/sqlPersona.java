@@ -36,7 +36,7 @@ public class sqlPersona {
             ps.setString(2, contrasena);
             rs = ps.executeQuery();
 
-            while (rs.next()) {
+            if (rs.next()) {
                 p = new Persona();
                 p.setId(rs.getInt("ID"));
                 p.setTipoDocumento("tipoDocumento");

@@ -4,7 +4,6 @@ import com.sged.modelo.Entrenador;
 import java.util.List;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
-import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
@@ -12,7 +11,7 @@ import javax.ws.rs.core.Response;
  *
  * @author juanpablo
  */
-@Path("entrenadores")
+@Path("Secured/entrenadores")
 public class EntrenadorServicio {
 
     //private static List<Practicante> lista = new ArrayList<>();
